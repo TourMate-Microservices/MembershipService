@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourMate.MembershipService.Api", "TourMate.MembershipService.Api\TourMate.MembershipService.Api.csproj", "{2410BC73-E726-4F25-97D5-BF9AB90B8AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourMate.MembershipService.Services", "TourMate.MembershipService.Services\TourMate.MembershipService.Services.csproj", "{B3F2F6A5-0D25-49EC-8F6B-4D974E7E72B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourMate.MembershipService.Repositories", "TourMate.MembershipService.Repositories\TourMate.MembershipService.Repositories.csproj", "{C1B68C6E-289D-4829-A80D-2A3CD9B00E71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2410BC73-E726-4F25-97D5-BF9AB90B8AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2410BC73-E726-4F25-97D5-BF9AB90B8AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2410BC73-E726-4F25-97D5-BF9AB90B8AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F2F6A5-0D25-49EC-8F6B-4D974E7E72B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F2F6A5-0D25-49EC-8F6B-4D974E7E72B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F2F6A5-0D25-49EC-8F6B-4D974E7E72B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F2F6A5-0D25-49EC-8F6B-4D974E7E72B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B68C6E-289D-4829-A80D-2A3CD9B00E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B68C6E-289D-4829-A80D-2A3CD9B00E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B68C6E-289D-4829-A80D-2A3CD9B00E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B68C6E-289D-4829-A80D-2A3CD9B00E71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
